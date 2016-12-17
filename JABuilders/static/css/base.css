@@ -1,0 +1,32 @@
+body{
+  margin:0px 0px;
+  backgroun-color: #fff;
+}
+
+#hero{
+  background-image:url('../images/blockwork.jpg');
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+.header{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+   	-webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+}
+
+#contact-details{
+  padding: 50px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+  background-color:#000;
+  color:#fff;
+}
